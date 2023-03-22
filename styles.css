@@ -1,0 +1,46 @@
+body {
+    background-color: pink;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: .25rem;
+    justify-content: center;
+}
+
+.input {
+    font-size: 1rem
+}
+
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.card {
+    border: 1px solid rgb(158, 192, 192);
+    box-shadow: 1px 0.1px pink, 2px 1px hotpink, 3px 2px #f4b250, 4px 3px gold, 5px 4px #ffdead, 6px 5px #90ee90, 7px 6px green, 8px 7px blue, 9px 8px violet;
+    background-color: aliceblue;
+    padding: .5rem;
+    border-radius: .25rem;
+}
+
+.card > .header {
+    margin-bottom: .25rem
+}
+
+.card > .body {
+    font-size: .6rem;
+    color: grey;
+}
+
+.hide {
+    display: none;
+}
